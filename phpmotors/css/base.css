@@ -166,7 +166,7 @@ a {
 
 .featured-order-btn {
     margin: 20px auto;
-    background-color: var(--primary);
+    background-color: var(--primaryLight);
     color: var(--grayDark);
     width: 220px;
     height: 60px;
