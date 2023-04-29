@@ -1,0 +1,44 @@
+@media screen and (min-width: 992px) {
+    .nav-list {
+        position: static;
+        flex-direction: row;
+        justify-content: left;
+        height: 100%;
+        border-top: none;
+    }
+
+    .nav-item {
+        height: 100%;
+        align-items: center;
+        margin-right: 35px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .featured-order-btn {
+        position: absolute;
+        top: 78px;
+        left: 16px;
+        width: 160px;
+        height: 50px;
+        font-size: 22px;
+        padding: 12px;
+    }
+
+    .main-info-flex {
+        flex-direction: row;
+    }
+
+    .delorean-upgrades {
+        order: 1;
+        width: 50%;
+    }
+
+    .delorean-reviews {
+        order: 2;
+        width: 50%;
+    }
+
+}
